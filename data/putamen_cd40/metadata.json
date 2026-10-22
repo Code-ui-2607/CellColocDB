@@ -1,0 +1,43 @@
+{
+  "source_task_id": "task2:05dd255a3cc983caf2b510463e567e0e617a7b7537aef47428c509ba93111272",
+  "identity": {
+    "build": "GRCh37",
+    "chromosome": "20",
+    "chromosome_length": 63025520,
+    "end": 45240196,
+    "feature_id": "ENSG00000101017",
+    "gwas_id": "F900126",
+    "qtl_context_id": "GTEx_v10_eQTL:Brain_Putamen_basal_ganglia:bulk",
+    "qtl_source_id": "GTEx_v10_eQTL",
+    "sentinel_pos": 44740196,
+    "sentinel_snp": "rs6074022",
+    "signal_definition": "DISTANCE_SENTINEL",
+    "signal_definition_version": "distance_sentinel_p5e-8_500kb_v1",
+    "signal_id": "locus2:e11a052f4ece8566d11eaea220311b9222aae7fa8938b2d79d167a67301e56d0",
+    "source_version": "FinnGen_R9_bcfed805006e4ef56afcfd12e5c8cd1bbf43f0d343ddb68b78d843de464ebf25",
+    "start": 44240196,
+    "statistically_independent": false,
+    "task_id": "task2:05dd255a3cc983caf2b510463e567e0e617a7b7537aef47428c509ba93111272",
+    "window_manifest_sha256": "79f2154b59dac245c5ba377519cb5f62dd0d8d5d6a40fbf903058c693f22a88c"
+  },
+  "window": {
+    "chromosome": "20",
+    "end": 45240196,
+    "start": 44240196
+  },
+  "chromosome": "20",
+  "window_start": 44240196,
+  "window_end": 45240196,
+  "gwas_fields": {
+    "effect_scale": "log_odds_ratio",
+    "scale_certified": true,
+    "type": "cc"
+  },
+  "qtl_fields": {
+    "N": 253,
+    "effect_scale": "GTEx_normalized_expression_regression_slope",
+    "scale_certified": true,
+    "type": "quant"
+  },
+  "original_input_sha256": "9f8e3c11e7383b62d17ee70398a2510da0848ba09f47e347eb376bcfd7bdb0c6"
+}
